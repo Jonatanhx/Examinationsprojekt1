@@ -1,77 +1,55 @@
 html {
-	display: grid;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(33, 37, 41);
+	font-size: 1rem;
 }
-p {
+body {
+	background-color: rgb(33, 37, 41);
+}
+p { 
 	font-size: 18px;
-}
-div {
-	display: flex;
-}
-#grid {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(2, 300px);
-}
-#screen1{
-	grid-area: 1/1/3/3;
-	background-color: rgb(0, 0, 0);
-	border-radius: 1px;
-	margin-right: 5px;
-}
-#screen2 {
-	grid-area: 1/3/2/8;
-	background-color: darkgray;
-	border-radius: 1px;
-	margin-bottom: 2.5px;
-}
-#screen3 {
-	grid-area: 2/3/3/8;
-	background-color: gray;
-	border-radius: 1px;
-	margin-top: 2.5px;
-}
-nav {
-	display: grid;
-	grid-template-columns: repeat(25, 1fr);
-	grid-template-rows: repeat(3, 40px);
-	background-color: black;
-	margin-bottom: 5px;
 }
 a {
 	text-decoration: none;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#button1 {
-	grid-area: 2/22/2/22;
-	font-size: 20px;
-	margin: 1px;
+h3 {
+	font-size: 17px;
 }
-#button2 {
-	grid-area: 2/23/2/23;
-	font-size: 20px;
-	margin: 1px;
+.burger {
+	width: 35px;
+	height: 5px;
+	background-color: black;
+	margin: 6px 0;
 }
-#button3 {
-	grid-area: 2/24/2/24;
-	font-size: 20px;
-	margin: 1px;
+.container-fluid {
+	display: flex;
+	flex-direction: row-reverse;
 }
-div {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 1fr);
+h1 {
+	color: whitesmoke;
 }
 img {
-	object-fit: cover;
-	height: 100%;
-	width: 300%;
-	border-radius: 1px black;
+	overflow: hidden;
 }
-#about-me-text {
-	font-size: 10px;
-	color: whitesmoke;
-	grid-area: 2/2/3/3;
-	height: 100%;
-	width: 100%;
+body {
+	background-color: rgb(33, 37, 41);
+}
+#Jonatan {
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+}
+#Jonatan:hover {
+	background: -webkit-linear-gradient(#e0ef16, #eb0707);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#Frontenddeveloper:hover {
+	background: -webkit-linear-gradient(#16e0ef, #2deb07);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#zack {
+	width: 40%;
+	height: auto;
 }
